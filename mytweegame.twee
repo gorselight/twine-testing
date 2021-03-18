@@ -11,7 +11,7 @@ My test story!
 
 :: Start
 /*This is the command in the terminal to run tweego: tweego -o index.html src --watch*/
-This is the first passage in a Twine game!
+This is the first passage in a Twine game! And github is working!
 <<set $tracker to 1>>
 Tracker is currently: $tracker
 [[This is a link|Next Passage]]
