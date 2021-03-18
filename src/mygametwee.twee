@@ -1,0 +1,37 @@
+:: StoryData
+{
+    "ifid": "DC16B721-FDF6-4EB3-9073-03D990B6B474",
+    "format": "SugarCube",
+    "format-version": "2.34.1", 
+    "start": "Start"
+}
+
+:: StoryTitle
+My test story!
+
+:: Start
+/*This is the command in the terminal to run tweego: tweego -o index.html src --watch*/
+This is the first passage in a Twine game!
+<<set $tracker to 1>>
+Tracker is currently: $tracker
+[[This is a link|Next Passage]]
+
+
+:: Next Passage
+The player just clicked a link to get here!
+<<set $tracker to $tracker + 1>>
+Tracker is currently: $tracker
+[[Click again|Third Passage]]
+
+:: Third Passage
+And he clicked another one to get here!
+<<set $tracker to $tracker + 1>>
+Tracker is currently: $tracker
+[[Click again..|Fourth Passage]]
+
+:: Fourth Passage
+And he clicked yet again.
+<<set $tracker to $tracker + 1>>
+Tracker is currently: $tracker
+
+
