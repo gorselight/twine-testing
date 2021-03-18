@@ -30,7 +30,7 @@ Tracker is currently: $tracker
 [[Click again..|Fourth Passage]]
 
 :: Fourth Passage
-And he clicked yet again.
+And he clicked yet again. Minor changes.
 <<set $tracker to $tracker + 1>>
 Tracker is currently: $tracker
 
